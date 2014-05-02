@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">ScreenshotSaver</string>
+	<string name="scrsht_scheduled">Screenshots scheduled!</string>
+	<string name="scrsht_canceled">Screenshots canceled!</string>
+
+</resources>
