@@ -70,7 +70,7 @@ public class ToggleScreenshotSaver extends Activity {
 		ComponentName receiver = new ComponentName(this, Scheduler.class);
 		PackageManager pm = this.getPackageManager();
 
-		if(prefs.getBoolean("active", true)){
+		if(prefs.getBoolean("active", false)){
 			Scheduler.cancelScreenshots(this);
 			pm.setComponentEnabledSetting(receiver,
 					PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
