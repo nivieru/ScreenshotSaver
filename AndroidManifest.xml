@@ -15,7 +15,7 @@
 		android:icon="@drawable/screenshot_toggle"
 		android:label="@string/app_name">
 		<activity
-			android:name=".ToggleScreenshotSaver"
+			android:name="ToggleScreenshotSaver"
 			android:label="@string/app_name"
 			android:theme="@android:style/Theme.NoDisplay">
 			<intent-filter>
